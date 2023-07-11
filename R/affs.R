@@ -1,13 +1,4 @@
-  #' affs Function
-  #'
-  #' constructing  local scaling affinity
-  #' @param x gene expression matrix where the rows represent samples, and the columns represents the features
-  #' @return affinity graph
-  #' @export
-  #' @examples
-  #' data(GSE62254_data)
-  #' data1<-apply(GSE62254_gene.expression, 2, function(x) (x-mean(x))/sd(x))
-  #' affs(data1)
+
 
   affs<-function(x,na.action = na.omit)
   {
