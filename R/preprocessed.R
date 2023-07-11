@@ -3,7 +3,7 @@
   
   library(tiff)
   
-  ## raw images read and calculate the pixel difference between images
+  ## read raw images and calculate the pixel difference between images
   
   xl<-list.files("file path..")
   for (h in 1:length(xl)) {
