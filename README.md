@@ -16,6 +16,6 @@
 ### pca<-pca(Tmap)
 ### ft<-pca$x[, 1:20]
 ### sd<-self.diffusion(affs(ft))
-### cor.mat <- cor(t(sfd))
+### cor.mat <- cor(t(sd))
 ### fet<-as.dist(1-cor.mat)
 ### clus<-ConsensuClusterPlus(fet)
