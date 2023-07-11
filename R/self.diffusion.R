@@ -1,16 +1,3 @@
-  #' self.diffusion Function
-  #'
-  #' Implementing self-diffusion on local scaling affinity
-  #' @param A affinity graph
-  #' @param K iteration steps
-  #' @keywords A K
-  #' @return diffused graph
-  #' @export
-  #' @examples
-  #' data(GSE62254_data)
-  #' data1<-apply(GSE62254_gene.expression, 2, function(x) (x-mean(x))/sd(x))
-  #' A<-affs(data1)
-  #' self.diffusion(A,4)
 
    self.diffusion <- function(A,K) {
 
